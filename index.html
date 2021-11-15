@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div><h1 class='well'>Welcome to Prang's website</h1></div>
+    <ul id="menu">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="b"><a href="introduction.html">Introduction</a></li>
+        <li class="c"><a href="content1.html">Types of Networks</a></li>
+        <li class="e"><a href="content3.html">Network Devices</a></li>
+        <li class="f"><a href="content4.html">Viruses</a></li>
+        <li class="g"><a href="content5.html">Authentication</a></li>
+        <li class="d"><a href="content2.html">Contact</a></li>
+    </ul>
+    <p class="note"><strong>Note: The header looks better when you open the page wide</strong></p>
+    <h1 class="am">About me</h1>
+    <p class="content1">
+        "This section <br>
+        exists because why <br>
+        not! So anyway, I probably <br>
+        interpreted the instructions <br>
+        very wrong, but it's too late <br>
+        to change everything. Also <br>
+        assignment will probably be <br>
+        handed in late as I suddenly <br>
+        became interested in studying <br>
+        new languages. As I am writing <br>
+        this I'm trying my best to <br>
+        complete the assignment. Where's <br>
+        the about me stuff? I love <br>
+        cats. It's the sentence <br>
+        before this. Thank you <br>
+        for wasting your time <br>
+        to read this message." <br>
+        <br>
+        - Prang, from the day <br>
+        before the doomsday <br>
+        (aka. the due date) <br>
+    <footer></footer>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("menu");
+        var sticky = menu.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            menu.classList.add("sticky")
+          } else {
+            menu.classList.remove("sticky");
+          }
+        }
+        </script>
+
+</body>
+</html>
