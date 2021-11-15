@@ -1,0 +1,233 @@
+body {
+    background-color: #3f3f3f;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li a{
+    float: left;
+}
+li a {
+    display: block;
+    color: lightcoral;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: lightcyan;
+}
+#menu {
+    font-size: 14pt;
+}
+.active {
+    background-color: lightpink;
+    z-index: 3;
+}
+.d {
+    float: right;
+    background-color: rgb(255, 180, 151);
+    color: lightgrey;
+}
+.head2 {
+        font-size: 40pt;
+        background-color:rgb(167, 208, 247);
+        font-family: Mick Caster;
+        text-align: center;
+        margin-bottom: 5pt;
+        margin-top: 5pt;
+        border-radius: 10px;
+        padding: 5pt;
+        color: white;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+  }
+.sticky + .content1{
+    padding-top: 60px;
+  }
+.note {
+    color: #EADBFC;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.net {
+    padding: 20px;
+    font-size: 30pt;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    color: #6491FF;
+    background-color: white;
+    font-family: Dolce Vita Heavy;
+    width: 700px;
+}
+.content2 {
+    padding: 50px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #CBE4FF;
+    font-family: dreamorphans;
+    font-size: 15pt;
+    line-height: 25pt;
+    position: left;
+    width: 600px;
+  }
+  .secure {
+    padding: 20px;
+    font-size: 30pt;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    color: #6491FF;
+    background-color: white;
+    font-family: Dolce Vita Heavy;
+    width: 700px;
+  }
+  .lol {
+    overflow: scroll;
+    background-color: #7E7E7E;
+    width: 320px;
+    height: 600px;
+    border-radius: 15px;
+    position: relative; bottom: 900px; left: 1000px;
+    border-color: #FCF8D1;
+    border-style: dotted;
+    z-index: 1;
+  }
+  .tab {
+      font-size: 30px;
+      padding-left: 40px;
+      color:#DEBF76;
+  }
+  .tableofcontent {
+      font-size: 20px;
+      padding-left: 50px;
+      color: #D9CFAF;
+  }
+  p a:hover {
+     color: lightcyan;
+ }
+ h2 {
+    padding: 20px;
+    font-size: 30pt;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    color: #6491FF;
+    background-color: white;
+    font-family: Dolce Vita Heavy;
+    width: 700px;
+ }
+ .kek {
+    overflow: scroll;
+    background-color: #7E7E7E;
+    width: 320px;
+    height: 500px;
+    border-radius: 15px;
+    position: relative; bottom: 600px; left: 1000px;
+    border-color: #FCF8D1;
+    border-style: dotted;
+    z-index: 1;
+ }
+ .in {
+     height: 1300px;
+ }
+ .networks {
+     height: 2600px;
+ }
+ .mo {
+     width: 400px;
+     position: relative; left: 900px; bottom: 450px;
+ }
+ .ha {
+     position: relative; bottom: 420px;
+ }
+ .rovid {
+     position: relative; left: 100px; bottom: 590px;
+     padding-top: 20px;
+ }
+ .he {
+    padding: 50px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #CBE4FF;
+    font-family: dreamorphans;
+    font-size: 15pt;
+    line-height: 25pt;
+    position: left;
+    width: 600px;
+    position: relative; bottom: 420px;
+ }
+ .swi {
+    padding: 50px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #CBE4FF;
+    font-family: dreamorphans;
+    font-size: 15pt;
+    line-height: 25pt;
+    position: left;
+    width: 600px;
+    position: relative; bottom: 610px;
+ }
+ .ich {
+    position: relative; bottom: 620px;
+ }
+ .ho {
+    width: 400px;
+    position: relative; left: 900px; bottom: 700px;
+}
+.bri {
+    position: relative; bottom: 600px;
+}
+.idg {
+    padding: 50px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #CBE4FF;
+    font-family: dreamorphans;
+    font-size: 15pt;
+    line-height: 25pt;
+    position: left;
+    width: 600px;
+    position: relative; bottom: 590px;
+}
+.rou {
+    position: relative; bottom: 580px;
+
+}
+table, th, td {
+    border: 1px solid #CADCFB;
+    padding: 15px;
+  }
+td {
+    font-size: 17px;
+    color: white;
+}
+.Advantage {
+    font-family: BebasNeue-Regular;
+    background-color: #5784D0;
+}
+.Disadvantage {
+    background-color: #E18CB5;
+    font-family: BebasNeue-Regular;
+}
+table {
+    position: relative; left: 30px;
+}
+.vi {
+    padding: 50px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #CBE4FF;
+    font-family: dreamorphans;
+    font-size: 15pt;
+    line-height: 25pt;
+    position: left;
+    width: 600px;
+}

@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="style2.css">
+<body>
+    <h1 class="head2">Viruses</h1>
+<ul id="menu">
+    <li class="a"><a href="index.html">Home</a></li>
+    <li class="b"><a href="introduction.html">Introduction</a></li>
+    <li class="c"><a href="content1.html">Types of Networks</a></li>
+    <li class="e"><a href="content3.html">Network Devices</a></li>
+    <li class="active"><a href="content4.html">Viruses</a></li>
+    <li class="g"><a href="content5.html">Authentication</a></li>
+    <li class="d"><a href="content2.html">Contact</a></li>
+</ul>
+<p class="note"><strong>Note: The header looks better when you open the page wide</strong></p>
+<h2>How to protect your computer from viruses</h2>
+<p class="vi">Running antivirus software in the background on a computer will constanly check 
+  for virus attacks. Although various types of antivirus software work in different 
+  ways they have many common features. Such as comparing a possible virus with known 
+viruses in their database, etc.<br>
+<br>
+One way to help prevent virus attacls when accessing websites on the internet is 
+to avoid unkown or suspicious-looking websites. If in doubt, don't access the website 1-2 
+look for security indicators such as https or the padlock symbol.<br>
+<br>
+Also look out for odd behaviour in the URL when accessing a new website, for example 
+from an advert in email, copy and paste the URL into the address bar at the top of the page 
+rather than just cliking on the link in the email. This can help to avoid links to bogus/fake websites. <br>
+<br>
+It is also not advisable to open emails (or any attachments) from unknown sources. 
+Essentially, the best form of defence against malicious behavior when making use of 
+the internet is to apply common sense. 
+</p>
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("menu");
+    var sticky = menu.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        menu.classList.add("sticky")
+      } else {
+        menu.classList.remove("sticky");
+      }
+    }
+    </script>
+</body>

@@ -1,0 +1,74 @@
+<link rel="stylesheet" href="style2.css">
+<body class="in">
+
+    <h1 class="head2">Introduction</h1>
+    <ul id="menu">
+        <li class="a"><a href="index.html">Home</a></li>
+        <li class="active"><a href="introduction.html">Introduction</a></li>
+        <li class="c"><a href="content1.html">Types of Networks</a></li>
+        <li class="e"><a href="content3.html">Network Devices</a></li>
+        <li class="f"><a href="content4.html">Viruses</a></li>
+        <li class="g"><a href="content5.html">Authentication</a></li>
+        <li class="d"><a href="content2.html">Contact</a></li>
+    </ul>
+    <p class="note"><strong>Note: The header looks better when you open the page wide</strong></p>
+    <h1 class="net">What is a network?</h1>
+    <p class="content2">
+    A network is formed when more than two computer systems are <br>linked together.
+    The size of a network can be as small as a handful of computers to millions (such as the
+    internet). The computers in a network can share resources with each other, communicate,
+    exchange files and more. <a href="content1.html#lan">LAN (Local Area Network)</a> and
+    <a href="content1.html#wan">WAN (Wide Area Network)</a> are the most widespreaded types
+    of networks. Furthermore, for a network to form, computers need the support of network devices
+    (e.g. modem and <br>router). There are many sorts of network devices.
+    </p>
+    <h1 class="secure">Network sucurity</h1>
+    <p class="content2">
+      As the internet doesn't have any controlling body that<br>
+      ensures that conforms to certain standards, the internet has<br>
+      numerous dangers and awful contents. Moreover, informations on<br>
+      the internet could be incorrect, inaccurate or even biased. However,<br>
+      with <a href="content5.html">Authentication</a> we can verify that data comes from a secure<br>
+      and trusted source. It works with encrytion to strengthen internet<br>
+      security. In addition, computers or any electronic devices with <br>
+      storage capacity can be infected by viruses (<a href="content4.html">click to<br>
+      see how to minimize or prevent getting viruses</a>.
+    </p>
+    <div class="lol">
+      <h4 class="tab">Table of content</h4>
+      <p class="tableofcontent">
+      1. Home <br>
+      2. Introduction to network <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;2.1 What is a network? <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;2.2 Network security <br>
+      3. Types of network <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;3.1 <a href="content1.html#lan">LAN (Local Area Network)</a> <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;3.2 <a href="content1.html#wan">WAN (Wide Area Network)</a> <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;3.3 <a href="content1.html#wlan">WLAN (Wireless Local Area Network)</a> <br>
+      4. Network devices <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;4.1 Modems <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;4.2 Hubs <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;4.3 Switches <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;4.4 Bridge <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;4.5 Router <br>
+      5. Viruses <br>
+      6. Authentication <br>
+      7. Contact
+      </p>
+    </div>
+    
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("menu");
+        var sticky = menu.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            menu.classList.add("sticky")
+          } else {
+            menu.classList.remove("sticky");
+          }
+        }
+        </script>
+</body>

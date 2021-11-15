@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="style3.css">
+<body>
+    <h1 class="head2">Contact</h1>
+    <ul id="menu">
+        <li class="a"><a href="index.html">Home</a></li>
+        <li class="b"><a href="introduction.html">Introduction</a></li>
+        <li class="c"><a href="content1.html">Types of Networks</a></li>
+        <li class="e"><a href="content3.html">Network Devices</a></li>
+        <li class="f"><a href="content4.html">Viruses</a></li>
+        <li class="g"><a href="content5.html">Authentication</a></li>
+        <li class="active"><a href="content2.html">Contact</a></li>
+    </ul>
+    <p class="note"><strong>Note: The header looks better when you open the page wide</strong></p>
+    <div1 class="con">
+      <p class="tact">
+        Email: <a href="mailto:25prangchundrpaorya@lannaist.ac.th" class="email">25prangchundrpaorya@lannaist.ac.th</a><br>
+        Instagram: @whyisblueberryjampurple<br>
+        Discord: babaam#6750 <br>
+        <br>
+        Here's a picture of me in case you <br>prefer to communicate in person
+        (even <br>though it's never gonna happen :D).
+
+      </p>
+    </div1>
+    <div2><img src="images/mypic.JPG" class="mypic"></div2>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("menu");
+        var sticky = menu.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            menu.classList.add("sticky")
+          } else {
+            menu.classList.remove("sticky");
+          }
+        }
+        </script>
+</body>

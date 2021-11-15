@@ -1,0 +1,87 @@
+<link rel="stylesheet" href="style2.css">
+<body class="devices">
+
+    <h1 class="head2">Network Devices</h1>
+    <ul id="menu">
+        <li class="a"><a href="index.html">Home</a></li>
+        <li class="b"><a href="introduction.html">Introduction</a></li>
+        <li class="c"><a href="content1.html">Types of Networks</a></li>
+        <li class="active"><a href="content3.html">Network Devices</a></li>
+        <li class="f"><a href="content4.html">Viruses</a></li>
+        <li class="g"><a href="content5.html">Authentication</a></li>
+        <li class="d"><a href="content2.html">Contact</a></li>
+    </ul>
+    <p class="note"><strong>Note: The header looks better when you open the page wide</strong></p>
+    <h2>Modems</h2>
+    <p class="content2">
+      Modems means 'modulator demodulator' and is a device that converts<br>
+      (i.e. modulates) a computor's digital signal into an analogue signal for<br>
+      tranmission over an existing telephone line. It also does the reverse<br>
+      process, in that it converts analogue signals from a telephone line into<br>
+      digital signals (demodulates) to enable the computer to process the data.<br>
+      <br>
+      Modems are essentially used to allow computers to<br>
+      connect to networks  for example, the internet) over long<br>
+      distances using the existing telephone networks.<br>
+      <br>
+      Dial-up modems operates a tranmission speeds of about 60 kilobits<br>
+      per second, which is extremely slow by today's standards.
+    </p>
+    <img src="images/modem.jpg" class="mo">
+    <h2 class="ha">Hubs</h2>
+    <p class="he">
+      Hubs are hardware devices that can have a number of devices or computers
+      connected to them. They are often used to connect together a number of devices
+      to form a LAN - for example, a star network. It's main task is to take any data
+      packet (this is a group of data being transmitted) received at one of it's ports
+      and boardcast it to every computer in the network. This is essentially means that
+      using a hub is not very secure or efficient method of data distribution.
+    </p>
+    <img src="images/hub.jpg" class="ho">
+    <h2 class="ich">Switches</h2>
+    <p class="swi">
+      Switches are similar to hubs but are much more effcient in the way that
+      they ditribute data packets. As with hubs, they connect a number of devices
+      or computers together to form a LAN.<br>
+      <br>
+      However, unlike a hub, the switch checks the data packet recieved and
+      works out its destination address (or addresses) and sends the data to the
+      appropriate computer(s) only. This makes using a switch a more secure
+      way of distributing data.<br>
+      <br>
+      Each devices or computer on a network has a media access control (MAC)
+      address that uniquely identifles it. Data packets sent to switches will have
+      a MAC address identifying the source of the data and additional addresses
+      identifying each devices that should recieve the data.
+    </p>
+    <h2 class="bri">Bridge</h2>
+    <p class="idg">
+      Bridges are devices that connect one LAN to another LAN that<br>
+      uses the same protocol (communication rules). They are often used<br>
+      to connect together different parts of a LAN so that they can<br>
+      function as a single LAN.<br>
+      <br>
+      Bridges tend to be used to interconnected LANs (or parts of LANs) since sending out every data
+      packet to all possible destinations would quickly flood larger networks with unneccesary traffic.
+      For this reason a router is used to communicate with other networks, such as the internet.
+    </p>
+    <h2 class="rou">Router</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/IvxE6Y6qAcg" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen class="rovid"></iframe>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("menu");
+        var sticky = menu.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            menu.classList.add("sticky")
+          } else {
+            menu.classList.remove("sticky");
+          }
+        }
+        </script>
+</body>

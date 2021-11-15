@@ -1,0 +1,59 @@
+<link rel="stylesheet" href="style2.css">
+<body>
+    <h1 class="head2">Authentication</h1>
+<ul id="menu">
+    <li class="a"><a href="index.html">Home</a></li>
+    <li class="b"><a href="introduction.html">Introduction</a></li>
+    <li class="c"><a href="content1.html">Types of Networks</a></li>
+    <li class="e"><a href="content3.html">Network Devices</a></li>
+    <li class="f"><a href="content4.html">Viruses</a></li>
+    <li class="active"><a href="content5.html">Authentication</a></li>
+    <li class="d"><a href="content2.html">Contact</a></li>
+</ul>
+<p class="note"><strong>Note: The header looks better when you open the page wide</strong></p>
+<h2>Authentication</h2>
+<p class="vi">
+  Examples of authentication are digital cerificates, biomatrics and magnetic strip 
+  cards/id cards/passports.<br>
+  <br>
+  Magnetic strip cards have a magnetic strip on one side (made up of tiny particles on 
+  a plastic flim). each particle can act as anorth-pole or a south-pole 
+  (which corresponds to the two binary values of 0 and 1).<br>
+  <br>
+  The strip is read by swiping it through a card reader. Data such as name, ID number 
+  sex and date of birth may be contained on a magnetic stripe when used 
+  as a security device to allow entry to a building, for example.<br>
+  <br>
+  Contactless cards can be read from a distance and don't have to be swiped through a 
+  card reader. Contactless technology can be used in credit/debit cards, for example 
+  to speed up payments in a shop, but they can also be used as a security device. If the card 
+  is in a wallet or a pocket, as the owner of the card walks through a security gate,
+  readers either side of the quickly scan the security data stored on the 
+  tag/chip embedded in the card. Access will only be allowed if the scanned data 
+  matches data in a database.<br>
+  <br>
+  Some ID cards also use a holographic iamge (hologram). These are designed to make forgery 
+  of the card more difficult. Holograpahic images change colour or appear to have a moving object 
+  when the image is viewed from a different angles. As these are difficult to make it stops somebody, 
+  for example, simple photocopying a card and using it illegally.<br>
+  <br>
+  Another form of security is to have a photographic image of the card user printed on the card surface<br>
+  <br>
+  Passports make use of some of the technology described above. Many passports contain an 
+  RFIED tag/chip, a photograph and a holographic image.
+</p>
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("menu");
+    var sticky = menu.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        menu.classList.add("sticky")
+      } else {
+        menu.classList.remove("sticky");
+      }
+    }
+    </script>
+</body>

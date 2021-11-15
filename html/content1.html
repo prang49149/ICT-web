@@ -1,0 +1,111 @@
+<link rel="stylesheet" href="style2.css">
+<body class="networks">
+    <h1 class="head2">Types of networks</h1>
+    <ul id="menu">
+        <li class="a"><a href="index.html">Home</a></li>
+        <li class="b"><a href="introduction.html">Introduction</a></li>
+        <li class="active"><a href="content1.html">Types of Networks</a></li>
+        <li class="e"><a href="content3.html">Network Devices</a></li>
+        <li class="f"><a href="content4.html">Viruses</a></li>
+        <li class="g"><a href="content5.html">Authentication</a></li>
+        <li class="d"><a href="content2.html">Contact</a></li>
+    </ul>
+    <p class="note"><strong>Note: The header looks better when you open the page wide</strong></p>
+    <h2 class="lan" id="lan">LANs</h2>
+    <p class='content2'>These systems are usually withinn one building, or certainly not
+      far away from each other geographically. A typical LAN will consit of a
+      number of computers anddevices (for example. prianters) that are connected to hubs or switches.
+      One of the hubs or switches will usually be connected to a router and a modem
+      (usually boradband) to allow the LAN to connect to the internet; in doing so
+      it then becaomes part of a WAN.
+    </p>
+    <h2 class="wan" id="wan">WANs</h2>
+    <p class="content2">
+      Wide area networks are used where computers or networks are as mentioned ealier,
+      if anumber of LANs are joined toegther using a rounter or
+      modem, then they can form a number of LANs are joined toegther using a router or modem,
+      then they can form a WAN. The most common examples of WAN include the internet and the network of ATMs
+      (automated teller machines) used by banks.
+      Because of the long distances between devices, WANs usually make us of some public  communication lines
+      which can be less expenisve and also more secure (less risk of hacking).
+      A typical WAN will consit of end systems and intermediate systems (see diagram).
+      1, 3, 7 and 10 areknown as end systems and the remeander are known as end systems. The distance between
+      each sstem can be considerable, especially if the WAN<br>is run by a multinational company.
+    </p>
+
+    <h2 class="wlan" id="wlan">WLAN</h2>
+    <p class="content2">
+      Wiresless LANs (WLANs) are similar to LANS but there are no<br>
+      wires or cables. In other words, they provide wireless network<br>
+      communications over fairly short distances (a few metres) using<br>
+      radio or infrared signals instead of cables. <br>
+      <br>
+      Devices, known as access points (APs) or wireless nodes, are<br>
+      connected into the wired network at fixed locations. Because of<br>
+      the limited range, most commercial LANs (for example, at a college<br>
+      campus or at an airport) need several APs to permit uninterrupted<br>
+      wireless communications. The APs use either spread spectrum technology<br>
+      (which is a wideband radio requency with a range of about 30-50m)<br>
+      or infrared (which has a very short range, about 1-2, and is<br>
+      easily block; it there therefore has a limited use.)<br>
+      <br>
+      The AP receives and transmits data between the WLAN and the wired network structure. End-users access the WLAN
+      through wireless LAN adapters that are built into the devices or are a plug-in-module.
+    </p>
+    <table>
+      <tr>
+        <td class="Advantage">Advantages</td>
+        <td class="Disadvantage">Disadvantages</td>
+      </tr>
+      <tr>
+        <td>
+          All computers can access the same<br>
+          services and resources from anywhere<br>
+          within range of the APS.
+        </td>
+        <td>
+          Security can be a big issue since anyone<br>
+          with a WLAN-enabled laptop can access<br>
+          a network if it can pick up a signal; it is<br>
+          therefore neccesary to adopt complex<br>
+          data encryption techniques.
+        </td>
+        </tr>
+        <tr>
+          <td>
+            As there is no cabling there is a safety<br>
+            improvement and increased felxibility.
+          </td>
+          <td>
+            There may be problems of interference,<br>
+            which can affect the signal.
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Adding new computers and devices<br>
+            is very easy and the costs are reduced<br>
+            since extra cabling isn't needed.
+          </td>
+          <td>
+            The data transfer rate is slower than<br>
+            in a wired LAN.
+          </td>
+        </tr>
+    </table>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("menu");
+        var sticky = menu.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            menu.classList.add("sticky")
+          } else {
+            menu.classList.remove("sticky");
+          }
+        }
+        </script>
+</body>
